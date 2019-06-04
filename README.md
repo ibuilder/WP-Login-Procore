@@ -1,11 +1,17 @@
 === WP Login with Procore ===
 
 Contributors: iphonix, stargroup, jcow
+
 Tags: procore, log in, login, template login, themed login
+
 Requires at least: 3.6.1
+
 Tested up to: 4.4
+
 Stable tag: 1.1.4
+
 License: GPLv2 or later
+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Creates a log in page at /login/ and manages password recovery and user notification feedback for the log in process.
@@ -45,7 +51,7 @@ function custom_sewn_logged_in_redirect_slug()
 3.  Enter Client ID / Secret ID in WP Admin > Settings > Procore API
 4.  Make sure you add your redirect uri in the app settings within procore dev site:
 
-![Redirect Help](redirect-help.png "Redirect Help")
+![Redirect Help](redirect-help.PNG "Redirect Help")
 
 == Installation ==
 
