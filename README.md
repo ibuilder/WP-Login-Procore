@@ -1,4 +1,5 @@
 === WP Login with Procore ===
+
 Contributors: iphonix, stargroup, jcow
 Tags: procore, log in, login, template login, themed login
 Requires at least: 3.6.1
