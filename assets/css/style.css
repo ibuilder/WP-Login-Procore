@@ -1,0 +1,66 @@
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn {
+    padding: 9px 12px 7px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-width: 0 1px 4px;
+}
+
+.btn:hover {
+    margin-top: 1px;
+    border-bottom-width: 3px;
+}
+
+.btn:active {
+    margin-top: 2px;
+    border-bottom-width: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-procore,.btn-procore:visited, .btn-procore:active, .btn-procore:focus, .btn-procore:hover {
+    background: #f47d41;
+    color: #fff;
+    border-color: #b35b30;
+}
+
+.btn-procore {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+}
+
+.btn-procore:before {
+    content: '';
+    display: inline-block;
+    background: url('../img/procoreLogoWhite.png') no-repeat;
+    max-width: 15px;
+    height: 14px;
+    flex: 1 0 15px;
+}
+
+.text-divider-pad {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.loginform-container {
+
+}
