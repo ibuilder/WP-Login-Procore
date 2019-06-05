@@ -51,7 +51,7 @@ function custom_sewn_logged_in_redirect_slug()
 3.  Enter Client ID / Secret ID in WP Admin > Settings > Procore API
 4.  Make sure you add your redirect uri in the app settings within procore dev site:
 
-![Redirect Help](redirect-help.png "Redirect Help")
+![Redirect Help](redirect-help.PNG "Redirect Help")
 
 
 
