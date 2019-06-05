@@ -24,7 +24,8 @@ function procore_options_page() {
 	?>
 	<div class="wrap">
 		<h1><?php _e( 'Procore API Settings', 'Procore API' ); ?></h1>
-		
+		<p class="description">Insert procore access token here.  To obtain one register at the <a href="https://developers.procore.com/">Procore Developer Portal</a></p>
+
 		<form method="post" action="options.php">
 			<?php
 			wp_nonce_field( 'update-options' );
